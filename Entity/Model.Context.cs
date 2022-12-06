@@ -13,10 +13,10 @@ namespace Entity
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class AirTransportDBEntities1 : DbContext
+    public partial class AirTransportDBEntities2 : DbContext
     {
-        public AirTransportDBEntities1()
-            : base("name=AirTransportDBEntities1")
+        public AirTransportDBEntities2()
+            : base("name=AirTransportDBEntities2")
         {
         }
     

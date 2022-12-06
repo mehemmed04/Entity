@@ -4,19 +4,19 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="7e753f828ad04aa09a9d77f02e2f9fe5" Name="Diagram1">
+      <Diagram DiagramId="62de675719494316908ef5151ae813fa" Name="Diagram1">
         <EntityTypeShape EntityType="AirTransportDBModel.Airplane" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
         <EntityTypeShape EntityType="AirTransportDBModel.City" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
         <EntityTypeShape EntityType="AirTransportDBModel.FlightType" Width="1.5" PointX="6" PointY="0.875" IsExpanded="true" />
         <EntityTypeShape EntityType="AirTransportDBModel.Pilot" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="AirTransportDBModel.Schedule" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
         <EntityTypeShape EntityType="AirTransportDBModel.Ticket" Width="1.5" PointX="8.25" PointY="3.5" IsExpanded="true" />
-        <AssociationConnector Association="AirTransportDBModel.FK__Airplanes__Pilot__2C3393D0" ManuallyRouted="false" />
-        <AssociationConnector Association="AirTransportDBModel.FK__Airplanes__Sched__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="AirTransportDBModel.FK__Airplanes__Pilot__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="AirTransportDBModel.FK__Airplanes__Sched__2E1BDC42" ManuallyRouted="false" />
         <AssociationConnector Association="AirTransportDBModel.FK__Schedules__CityI__286302EC" ManuallyRouted="false" />
-        <AssociationConnector Association="AirTransportDBModel.FK__Tickets__CityId__32E0915F" ManuallyRouted="false" />
-        <AssociationConnector Association="AirTransportDBModel.FK__Tickets__FlightT__34C8D9D1" ManuallyRouted="false" />
-        <AssociationConnector Association="AirTransportDBModel.FK__Tickets__Schedul__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="AirTransportDBModel.FK__Tickets__CityId__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="AirTransportDBModel.FK__Tickets__FlightT__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="AirTransportDBModel.FK__Tickets__Schedul__31EC6D26" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
